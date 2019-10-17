@@ -111,6 +111,6 @@ public class Utils {
 	
    //ADICIONA 15 ZEROS A ESQUERDA
    HashMap<String, Object> parametros = new HashMap<>();
-	parametros.put("NR_DOCUMENTO", StringUtils.leftPad(documento.getNumeroUnicoDocumento().toString(), 15, "0"));
+   parametros.put("NR_DOCUMENTO", StringUtils.leftPad(documento.getNumeroUnicoDocumento().toString(), 15, "0"));
    
 }
